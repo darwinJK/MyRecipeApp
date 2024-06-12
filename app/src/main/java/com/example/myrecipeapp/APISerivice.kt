@@ -13,7 +13,7 @@ private val retrofit=Retrofit.Builder().baseUrl("https://www.themealdb.com/api/j
 // which then we will convert into json object that we can then use.
 val recipeService= retrofit.create(ApiService::class.java)
 
-
+//changes
 interface ApiService{
     //get keyword is usd to specify the type of request that should be made to particular URL(categories.php)
     //used to generate the necessary code to make the network request send a get request to  URL and process the response data.
